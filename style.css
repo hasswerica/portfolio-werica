@@ -1,16 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-body{
-    background-color: rgb(36, 220, 233);
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #C92BFC;
 }
 
-h1{
-    color: azure;
-    text-align: center;
-    font-family: 'Playfair Display';
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+    background-color: #f8f9fa;
 }
-h2{
-    color:aliceblue
+
+h1,
+h2,
+h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
 }
-h3{
-    color:aliceblue
+
+.lead,
+.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a,
+.btn-link:hover {
+    color: var(--cor-principal);
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
+.werica{
+    width: 200px;
 }
